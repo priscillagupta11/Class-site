@@ -1,0 +1,190 @@
+body, html {
+    background-color: slategray;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.highlight {
+    background: yellow; 
+}
+
+
+/* row 1*/
+
+.container {
+    background-color: white;
+}
+
+.form-row {
+    display: flex;
+    padding: 10px; 
+}
+
+.form-row label {
+   padding-right: 10px;
+}
+
+.form-row input {
+   flex: 1; 
+}
+
+
+
+/* row 2*/
+
+.column-layout {
+    display: flex;
+    max-width: 1300px;
+    background-color: orange;
+    padding: 20px 50px;
+    margin: 40px auto;
+   /* justify-content: space-between;*/
+    }
+    
+.main-column {
+    flex: 2; 
+    background-color: red;
+    padding: 0 10px;
+    order: 2;
+}
+
+.sidebar-one {
+    flex: 1;  
+    background-color: lightgray;
+    padding: 0 10px;
+    order: 1;
+}
+
+.sidebar-two {
+    flex: 1; 
+    background-color: lightgray;
+    padding: 0 10px;
+    order: 3;
+    }
+    
+    
+    
+/* row 3*/ 
+
+.call-outs-container {
+    justify-content: space-evenly;
+    /*
+    justify-content: flex-start;
+    justify-content: flex-right;
+    justify-content: center;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: space-between;*/
+
+    /* lign-items: stretch;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;*/
+    }
+    
+.call-out {
+    padding: 10px;
+    box-sizing: border-box;
+    flex-basis: 30%; /*this is the same as > width: 30%*/
+    /*width: 30%;*/
+    }
+
+.call-out:nth-child(1) {background-color: royalblue;}
+.call-out:nth-child(2) {background-color: coral;}
+.call-out:nth-child(3) {background-color: olive;}
+
+
+@media (min-width: 900px) {
+    .call-outs-container {
+    display: flex;
+        }    
+    }
+
+    
+
+    
+/* row 4*/   
+
+.fixed-size-container {
+    display: flex;
+    margin: 40px auto 0 auto;
+    background-color: red;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+/*  flex-direction: row-reverse;
+    flex-direction: column;
+    */   
+    }
+    
+.fixed-size {
+    display: flex;
+    margin: 30px 0;
+    width: 150px;
+    height: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 60px; 
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    }
+
+
+@media (max-width: 900px) {
+   .fixed-size {  margin-bottom: 30px; }   
+    }
+
+
+
+/* row 5*/ 
+
+.banner {
+    display: flex;
+    height: 400px;
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: black;
+}
+
+.centered {
+    color: black;
+    background-color: white;
+    font-size: 50px;
+    margin: auto; /* in flex, this line of code vertically and horizontally centers the div*/ 
+    }
+    
+    
+    
+/* row 6*/      
+    
+.equal-height-container {
+    display: flex;
+    margin: 20px auto; 
+}
+
+.first {
+    background-color: white;
+    padding: 10px;
+    flex: 1;
+}
+
+.second {
+    display: flex;
+    background-color: lawngreen;
+    flex: 1;
+    flex-direction: column;
+    /*flex-direction: row;*/
+}
+
+.second-a {
+    background-color: #c0dbe2;
+    flex: 1; /*this makes it so the div fills half the entire space*/
+}
+
+.second-b {
+    background-color: darkgreen;
+    flex: 1; /*this makes it so the div fills half the entire space*/
+}

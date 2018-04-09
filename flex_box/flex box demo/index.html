@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox</title>
+
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+<body>
+    
+<!--row 1-->
+
+<div class="container">
+    <form action="">
+        <div class="form-row">
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+        </div>
+        <div class="form-row">
+            <label for="favColor">Favorite Color:</label>
+            <input type="text" id="favColor">
+        </div>
+
+    </form>
+    
+    
+</div>
+    
+    
+<!--row 2-->
+    
+<div class="column-layout">
+  <div class="main-column">
+    <h1>Main Column</h1>
+    <p>This column is wider because it is set to <span class="highlight">"flex: 2"</span> which means in this case, that it is 2/4 of the parent div (minus margin and padding.) <br><br>
+    If there were 4 divs, <span class="highlight">"flex: 2"</span> would make it 2/5 of the parent div. <br><br>
+    If there were 5 divs <span class="highlight">"flex: 2"</span> would make it 2/6 of the parent div. <br><br>
+    If this div was set to <span class="highlight">"flex: 3"</span> it would make it 3/5 of the parent div. <br><br>
+   </p>
+  </div>
+
+
+  <div class="sidebar-one">
+    <h2>Sidebar One</h2>
+    <p>You can move these divs around in order from left to right with <span class="highlight">"order: 1 | 2 | 3 | etc."</span></p>
+    </div>
+
+
+  <div class="sidebar-two">
+    <h2>Sidebar 2</h2>
+    <p>Cras fringilla tellus posuere lectus interdum tincidunt. Pellentesque dapibus malesuada molestie. In non iaculis purus, sit amet pellentesque purus. Integer eget lectus est. Class aptent taciti sociosqu.</p>
+  </div>
+
+    
+    
+</div>
+    
+    
+<!--row 3-->
+    
+<div class="call-outs-container">
+        <div class="call-out">
+        <h4>Feature 1</h4>
+            <p>You don't need to add a margin around these divs beacuse flexbox adds the margin for you.
+            </p>
+        </div>
+
+        <div class="call-out">
+        <h4>Feature 2</h4>
+            <p><span class="highlight">"Justify-content: flex-start | flex-end | center | space-between | space-around | stretch;"</span> tells how to distribute divs.<br><br> 
+                <span class="highlight">"Align-items: flex-start | flex-end | center | baseline | stretch;"</span> says how to align them.  <br><br>
+                Notice that some of the terms are the same but they do different things in each setting.
+            </p>
+        </div>
+
+        <div class="call-out">
+        <h4>Feature 3</h4>
+            <p><span class="highlight">"Justify: space-around"</span> makes it so that items are evenly distributed in the line with equal space around them. Note that visually the spaces aren't equal, since all the items have equal space on both sides. The first item will have one unit of space against the container edge, but two units of space between the next item because that next item has its own spacing that applies.<br><br> 
+                
+                <span class="highlight">"Justify: space-between"</span> makes it so that items are distributed so that the spacing between any two items (and the space to the edges) is equal.
+            </p>
+        </div>
+    </div>
+    
+    
+<!--row 4-->
+    
+<div class="fixed-size-container">
+    <div class="fixed-size">1</div>
+    <div class="fixed-size">2</div>
+    <div class="fixed-size">3</div>
+    <div class="fixed-size">4</div>
+    <div class="fixed-size">5</div>
+
+</div>
+
+    
+<!--row 5-->
+
+<div class="banner">
+    <div class="centered">Centered div!</div>
+</div>
+    
+  
+    
+<!--row 6-->
+
+<div class="equal-height-container">
+    <div class="first"><p>You can also justify content vertically, as well as horizontally.
+    <br><br>
+    This white div and the container div for A and B on the right are horizontally justified, but A and B divs inside the right div are vertically justified.<br><br>
+        Opposite to regular CSS, divs in flex by default flow horizontally and you have to specificy for them to stack vertically. You dot his by specifiying <span class="highlight">"flex-direction: column;"</span> 
+          </p>
+    </div>
+    
+    <div class="second">
+        <div class="second-a">A</div>
+        <div class="second-b">B</div>
+    </div>
+</div>
+    
+</body>
+</html>
