@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
+
+body {
+	background: #CCFFFF;
+	background-image: url(windows.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+
+iframe[seamless] { 
+    display: block;}
+
+
+.urban {
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 120px;
+	z-index: 20;
+}
+
+.thesaurus {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 300px;
+	z-index: 20;
+}
+
+.spanish {
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 350px;
+	z-index: 20;
+}
+
+
+.dictionary {
+	margin-left: 40px;
+	border:none;
+	z-index: -1;
+}
+
