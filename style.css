@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css); 
+
+body {
+	background: #ffffff; 
+	overflow-x: hidden;
+    overflow-y: scroll;}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+};
+
+.font-reg{font-family: 'Roboto Slab', serif;}
+.font-light{font-family: 'Roboto Slab', serif;}
+
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 15px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gray; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ed145b; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ed145b; 
+}
+
+/*----------HEADER---------*/
+
+.header-main{
+	height:72px;
+	background: #ed145b;
+	position: absolute;
+	align-content: center;
+	top: 5%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+.header-fixed{
+	width:100%;
+	position:absolute;
+}
+
+	
+#name {
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 5px;
+	margin-left: 140px;
+	margin-top: 23px;
+	position: absolute;
+}
+
+a:link, a:visited {
+    color: white;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul#navigation {
+	display: inline;
+	font-family: 'Varela Round', sans-serif;
+	color: white;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	letter-spacing: 1px;
+	margin-left: 950px;
+	margin-top: 20px;
+	position: absolute;
+}
+
+ul#navigation li {
+	display: inline-block;
+	color:#ed145b;
+	position: relative;
+	padding: 0px 25px;
+}
+
+ul#navigation li:hover {
+	text-decoration: underline;
+}
+
+ul#navigation ul{
+	position: absolute;
+	background: #ed145b;
+	border-radius: 1px 1px 1px 1px;
+	box-shadow: 0px 0px 1px 0px;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity.5s;
+	transition: opacity .5s;
+}
+
+ul#navigation li:hover ul {
+	visibility: visible;
+	opacity: 1;
+}
+
+ul#navigation ul li {
+	display: block;
+	color: #ed145b;
+	text-decoration: none;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 35px;
+	padding-bottom: 15px;
+}
+
+
+.font-reg {
+	font-family: 'Varela Round', sans-serif;
+	font-weight:400;
+	font-size: 15px;
+	line-height: 22px;
+	letter-spacing: 0.6px;
+	padding-left: 675px;
+	padding-right: 200px;
+}
+
+
+.heading {
+	font-family: 'Roboto Slab', serif;
+	font-size:24px;
+	line-height:45px;
+	text-align: center;
+	color:#ed145b;
+	text-transform:uppercase;
+	text-decoration: none;
+	letter-spacing:3px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+#projects {
+	top: 150px;
+	left: 50%;
+	margin-right: -50%; 
+}
+
+#workshops {
+	top: 2300px;
+	left: 50%;
+	margin-right: -50%;
+}
+
+.screenshot {
+	left: 142px;
+	position: absolute;
+	box-shadow: 10px 10px 1px #ed145b;
+	outline-width: 2px;
+	outline-color: black;
+}
+
+.screenshot6 {
+	left: 504px;
+	position: absolute;
+	box-shadow: 10px 10px 1px #ed145b;
+}
+
+.captionheading {
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	color: #ed145b;
+	line-height: 19px;
+	letter-spacing: 0.6px;
+	left: 190px;
+	position: relative;
+	padding-left: 675px;
+	padding-right: 150px;
+}
+
+.caption {
+	font-family: 'Varela Round', sans-serif;
+	font-weight:400;
+	font-size: 14px;
+	line-height: 19px;
+	letter-spacing: 0.6px;
+	position: absolute;
+	left: 200px;
+	padding-left: 675px;
+	padding-right: 150px;
+}
+
+.workshops {
+	font-family: 'Roboto Slab', serif;
+	font-size:19px;
+	line-height:45px;
+	text-align: center;
+	color:black;
+	text-transform:uppercase;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing:2px;
+	position: absolute;
+	top: 4080px;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
