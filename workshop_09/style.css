@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  font-size: 20px;
+  font-family: Arial;
+  color: #7795ff;
+}
+
+body {
+
+  background-color:#ffc3ee;
+  background-attachment: fixed;
+}
+
+.week {
+  display: flex;
+}
+
+.day {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+
+.month {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.week {
+  height: 120px;
+}
+
+.day {
+  color: #ff7795;
+  padding: 5px;
+  background-color: #2bffd0;
+  font-family: "Helvetica", sans-serif;
+    font-size: 12px;
+}
+  
+

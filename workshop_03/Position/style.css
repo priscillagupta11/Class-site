@@ -1,0 +1,45 @@
+body {
+  background-color: #d9ff00;
+}
+
+.circle {
+  height: 600px;
+  width: 600px;
+  background-color:#ffa600;
+  animation: 
+    nudge 1s linear infinite alternate;
+  border-radius: 100%;
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0px, 0px);
+  }
+
+  25% {
+    transform: translate(100px, 25px);
+  }
+  
+  50% {
+    transform: translate(125px, 50px);
+  }
+  
+  75% {
+    transform: translate(150px, 75px);
+  }
+  
+  100% {
+    transform: translate(175px, 100px);
+  }
+}
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
