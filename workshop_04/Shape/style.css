@@ -1,0 +1,51 @@
+body {
+	background-color: #d90976;
+}
+
+.element1 {
+    background-color: yellow;
+    border-radius:0;
+    width:100px;
+    height:100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index:0;
+    transition: border-radius 2s ease}
+
+.element1:hover{border-radius:50%}
+
+.element2 {
+    background-color: yellow;
+    border-radius:0;
+    width:100px;
+    height:100px;
+    top: 10;
+    bottom: 0;
+    left: 50;
+    right: 0;
+    position: absolute;
+    z-index:0;
+    transition: border-radius 2s ease}
+
+.element2:hover{border-radius:50%}
+
+.element3{
+    background-color: #09d9d4;
+    border-radius:50%;
+    width:1200px;
+    height:500px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position: absolute;
+    z-index:0;
+    margin:auto;
+    border-style: none;
+    transition: border-radius 2s ease
+   }
+
+.element3:hover{border-radius:0}

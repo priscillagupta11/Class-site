@@ -1,0 +1,71 @@
+body {
+	background: url("space.jpg");
+	background-size: 150% auto;
+	background-repeat: no-repeat;
+	font-family: 'Comic Sans MS', cursive;
+	color: yellow;
+	line-height: 0.5;
+}
+
+.lyrics {
+	font-family: "Comic Sans MS", cursive;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 0.5;
+	color: yellow;
+}
+
+
+#assets {
+
+}
+.animals {
+	position: absolute;
+}
+
+#dog1 {
+	background-image: url("image1.gif");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	width: 153px;
+	height: 169px;
+	left: 60%;
+	top: 10%;
+}
+#dog2 {
+	background-image: url("image2.gif");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	width: 520px;
+	height: 266px;
+	left: 60%;
+	top: 30%;
+}
+
+#cat1 {
+	background-image: url("image4.gif");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 267px;
+	left: 2%;
+	top: 5%;
+}
+
+#cat2 {
+	background-image: url("image3.gif");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 300px;
+	left: 50%;
+	top: 85%;
+}
+
+#video {
+	width: 40%;
+	height: auto;
+	margin-left: 200px;
+	margin-top: 130px;
+}
+
